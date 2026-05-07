@@ -1,0 +1,46 @@
+name: 💡 Feature Request
+description: Suggest an improvement or new capability
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea for how this tool could be better? We'd love to hear it.
+
+  - type: textarea
+    id: scenario
+    attributes:
+      label: What scenario would this help with?
+      description: Describe the situation where you'd use this feature.
+      placeholder: "I'm trying to plan my Build schedule and I wish I could..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: desired-experience
+    attributes:
+      label: Describe the experience you'd like
+      description: What would the ideal interaction look like?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which area does this relate to?
+      options:
+        - Skill behavior (what the agent says/does)
+        - CLI tool (install, performance, errors)
+        - Documentation
+        - Not sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Anything else — examples, screenshots, links to similar tools.
+    validations:
+      required: false

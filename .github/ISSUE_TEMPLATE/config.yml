@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: ❓ Ask a question
+    url: https://github.com/microsoft/Build-CLI/discussions/categories/q-a
+    about: Get help from the community and maintainers
+  - name: 💬 General feedback
+    url: https://github.com/microsoft/Build-CLI/discussions/categories/general
+    about: Share thoughts, ideas, or just say hi
