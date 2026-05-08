@@ -20,7 +20,7 @@ Many issues can be resolved by updating to the latest version:
 /plugin install microsoft/Build-CLI
 ```
 
-This re-fetches the latest skill and plugin configuration from the repo.
+This re-fetches the latest plugin configuration from the repo.
 
 ## Microsoft Support Policy
 
