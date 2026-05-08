@@ -338,7 +338,7 @@ describe('automatic cache revalidation', () => {
     expect(repairedMeta?.checkedAt).toBe(NOW);
     expect(Date.parse(repairedMeta?.nextCheckAt ?? '')).toBeGreaterThan(Date.parse(NOW));
     expect(stderrOutput()).toContain(
-      'failed: https://eventtools.event.microsoft.com/build2026-prod/fallback/session-all-en-us.json ' +
+      'failed: https://aka.ms/build2026-session-info ' +
         'returned 304 without a usable local cache',
     );
   });
