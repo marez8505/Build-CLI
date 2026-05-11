@@ -1,9 +1,8 @@
 # Microsoft Build CLI
 
-A [GitHub Copilot CLI](https://github.com/features/copilot/cli/) skill that connects your local project to the Microsoft Build session catalog. It reads your dependencies, finds relevant sessions, and helps you act on what you learn — all from your terminal.
+![Build CLI](Build-CLI.png)
 
-> [!NOTE]
-> Build-CLI targets **Build 2026** and also indexes past events (Build 2025, Ignite 2025). It supports any future event that follows the same catalog endpoint pattern. It is not a replacement for the event app or session browser — it's a developer-first complement to them.
+A [GitHub Copilot CLI](https://github.com/features/copilot/cli/) skill that connects your local project to the Microsoft Build session catalog. It reads your dependencies, finds relevant sessions, and helps you act on what you learn — all from your terminal.
 
 ## Quick Start
 
@@ -56,6 +55,9 @@ The skill reads `package.json`, `requirements.txt`, `.csproj`, `go.mod`, and oth
 The skill is a thin layer over the **live Build 2026 catalog API** — no stale data, no manual updates. For SDK docs and code samples, it falls back to the [Microsoft Learn MCP Server](https://learn.microsoft.com/training/support/mcp).
 
 Session results are a starting point. For broad topics, ask the agent to refine (*"show me more Foundry sessions about observability"*) or browse the full catalog at [build.microsoft.com/sessions](https://build.microsoft.com/sessions).
+
+> [!NOTE]
+> Build-CLI targets **Build 2026** and also indexes past events (Build 2025, Ignite 2025). It supports any future event that follows the same catalog endpoint pattern. It is not a replacement for the event app or session browser — it's a developer-first complement to them.
 
 ## Scope and Limitations
 
