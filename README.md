@@ -1,8 +1,8 @@
 # Microsoft Build CLI
 
-![Build CLI](Build-CLI.png)
-
 A [GitHub Copilot CLI](https://github.com/features/copilot/cli/) skill that connects your local project to the Microsoft Build session catalog. It reads your dependencies, finds relevant sessions, and helps you act on what you learn — all from your terminal.
+
+![Build CLI](Build-CLI.png)
 
 ## Quick Start
 
