@@ -64,7 +64,7 @@ Session results are a starting point. For broad topics, ask the agent to refine 
 | Client | Configuration |
 |--------|---------------|
 | GitHub Copilot CLI | `/plugin install microsoft/Build-CLI` then `/restart` |
-| VS Code (Insiders) | Install from the Skills Hub or add `microsoft-events` in `@agentPlugins` |
+| VS Code | Open Extensions (Ctrl+Shift+X), search `@agentPlugins microsoft-events`, and install |
 | Claude Code | `/plugin marketplace add microsoft/Build-CLI` then `/plugin install microsoft-events@microsoft-events-marketplace` |
 
 ## Scope and Limitations
