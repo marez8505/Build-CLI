@@ -59,6 +59,14 @@ Session results are a starting point. For broad topics, ask the agent to refine 
 > [!NOTE]
 > Build-CLI targets **Build 2026** and also indexes past events (Build 2025, Ignite 2025). It supports any future event that follows the same catalog endpoint pattern. It is not a replacement for the event app or session browser — it's a developer-first complement to them.
 
+## Supported Clients
+
+| Client | Configuration |
+|--------|---------------|
+| GitHub Copilot CLI | `/plugin install microsoft/Build-CLI` then `/restart` |
+| VS Code (Insiders) | Install from the Skills Hub or add `microsoft-events` in `@agentPlugins` |
+| Claude Code | `/plugin marketplace add microsoft/Build-CLI` then `/plugin install microsoft-events@microsoft-events-marketplace` |
+
 ## Scope and Limitations
 
 - **Event-scoped:** Targets Build 2026, with Build 2025 and Ignite 2025 also available. The architecture supports any event that uses the same catalog endpoints.
